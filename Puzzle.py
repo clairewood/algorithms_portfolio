@@ -2,6 +2,12 @@
 # 3/5/2023
 # CS 325 HW 8
 
+# SOURCE:  
+# The solve_puzzle function was adapted from Dijkstra's Algorithm code originally from this source:  
+# https://bradfieldcs.com/algos/graphs/dijkstras-algorithm/ 
+# The above code was provided by our professor for our usage, with proper citation.
+# See README for more details.
+
 import heapq
 
 
@@ -60,12 +66,11 @@ def solve_puzzle(Board, Source, Destination):
 
     Returns a list of tuples indicating the indices of each step in the path.
     If no path exists, returns None.
-
-    The below code was adapted from my MinPuzzle code that I wrote for last week's assignment, which was
-    originally adapted from the calculate_distances code from Week 7's Exploration page about Dijkstra's algorithm.
-    Original code accessed at this link:
+    
+    The below code was adapted using code provided to us by the professor for this class. 
+    The provided code was accessed at this link on 3/5/2023:
     https://github.com/DURepo/CS_325_Exercises/blob/main/Graph-calculate_distances.py
-    Original source as listed at above link:
+    The linked source above lists this link as its original source: 
     https://bradfieldcs.com/algos/graphs/dijkstras-algorithm/
     """
     # Changing the name for clarity:
